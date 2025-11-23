@@ -1,0 +1,1 @@
+python -m rl_train.rl_train_cifar10 --model cnn --num_epochs 600 --batch_size 256 --learning_rate 0.0001 --device cuda --start_adv_epoch 400 --adv_rate 1.0 --epsilon 0.01 --seed 20
